@@ -2,8 +2,8 @@ dataset: "LibriTTS"
 path:
   corpus_path: ""
   lexicon_path: ""
-  raw_path: "/home/ldap-users/s2220411/Code/Multilingual_Data_Training/data_training"
-  preprocessed_path: "/home/ldap-users/s2220411/Code/Multilingual_Data_Training/mutilingualTTS_Diffsion_DivideMax_Espeak"
+  raw_path: ""
+  preprocessed_path: "./config/STENTTS_infer"
 
 preprocessing:
   val_size: 512

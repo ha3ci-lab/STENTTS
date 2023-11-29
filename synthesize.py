@@ -159,23 +159,12 @@ if __name__ == "__main__":
         language_map = json.load(f)
     # Preprocess texts
 
-    language = ["chinese", "dutch", "english", "french", "german",
-                "indonesian", "italian", "japanese", "korean",
-                "polish", "portuguese", "russian", "spanish", "vietnamese"]
+    language = ["chinese", "english", "indonesian", "japanese", "vietnamese"]
     texts = [
         "這是日本先進科學技術研究所研究團隊開發的系統",
-        "dit is het systeem dat is ontwikkeld door het onderzoeksteam van het Japanse geavanceerde instituut voor wetenschap en technologie",
         "this is the system developed by the research team of the japan advanced institute of science and technology",
-        "c'est le système développé par l'équipe de recherche de l'institut supérieur des sciences et technologies du japon",
-        "dieses system wurde vom forschungsteam des japan advanced institute of science and technology entwickelt",
         "ini adalah sistem yang dikembangkan oleh tim peneliti institut sains dan teknologi maju jepang",
-        "questo è il sistema sviluppato dal gruppo di ricerca dell'istituto avanzato di scienza e tecnologia del Giappone",
         "これは北陸先端科学技術大学院大学の研究チームが開発したシステムです",
-        "일본 첨단과학기술원 연구팀이 개발한 시스템입니다",
-        "jest to system opracowany przez zespół badawczy japońskiego zaawansowanego instytutu nauki i technologii",
-        "este é o sistema desenvolvido pela equipe de pesquisa do instituto avançado de ciência e tecnologia do japão",
-        "это система, разработанная исследовательской группой японского передового института науки и техники",
-        "este es el sistema desarrollado por el equipo de investigación del instituto avanzado de ciencia y tecnología de japón",
         "đây là hệ thống phát triển bởi đội nghiên cứu của viện khoa học và công nghệ tiên tiến nhật bản",
     ]
     os.makedirs("wav_output", exist_ok=True)
