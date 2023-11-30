@@ -116,7 +116,6 @@ raw_data/
 output/
 *.npy
 TextGrid/
-hifigan/*.pth.tar
 *.pyc
 *.pyo
 *.swn
